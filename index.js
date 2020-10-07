@@ -92,6 +92,10 @@ client.connect(err => {
       .then(result => {
         console.log(result);
     })
+
+    app.get("/", (req, res) => {
+      res.send('Hello form db working well...')
+    })
 })
   
 });
