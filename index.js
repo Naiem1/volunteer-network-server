@@ -93,10 +93,12 @@ client.connect(err => {
         console.log(result);
     })
 
-    app.get("/", (req, res) => {
-      res.send('Hello form db working well...')
-    })
-})
+   
+  })
+  
+  app.get("/", (req, res) => {
+    res.send('Hello form db working well...')
+  })
   
 });
 
